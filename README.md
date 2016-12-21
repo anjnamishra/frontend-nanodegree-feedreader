@@ -1,11 +1,11 @@
 # Overview
 
-This project is a web-based application that reads RSS feeds. It uses [Jasmine](http://jasmine.github.io/) for testing.
+This is web-based application to read RSS feeds which is based on Jasmine for testing.
 
 # How-To
 
 ## Run
-Open ```index.html``` in your browser. You can also use the command ```python -m SimpleHTTPServer``` in ```index.html``` directory and you should then see:
+Open ```index.html``` in browser. Or Use the command ```python -m SimpleHTTPServer``` in ```index.html``` directory and you should then see:
 ```
 Serving HTTP on 0.0.0.0 port 8000 ...
 ```
@@ -30,4 +30,4 @@ It is set to 20 seconds to give enough time to Google Feed readers API but with 
 
 # Jasmine.Jquery
 
-To help for tests based on DOM or on event (i.e click), Jasmine specs needs Jasmine.Jquery (```js/jasmine-jquery.js```). Source and doc here: https://github.com/velesin/jasmine-jquery.
+To help for tests based on DOM or on event (i.e click), Jasmine specs needs Jasmine.Jquery (```js/jasmine-jquery.js```).
