@@ -13,7 +13,7 @@ var allFeeds = [
         url: 'http://blog.udacity.com/feed'
     }, {
         name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
+        url: 'http://css-tricks.com/feed'
     }, {
         name: 'HTML5 Rocks',
         url: 'http://feeds.feedburner.com/html5rocks'
@@ -51,7 +51,7 @@ function init() {
        contentType:"application/json",
        success: function (result, status){
 
-                 var container = $('.feed'),
+                var container = $('.feed'),
                      title = $('.header-title'),
                      entries = result.feed.entries,
                      entriesLen = entries.length,
